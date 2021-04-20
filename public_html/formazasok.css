@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+nav,header,footer,article, section, aside {
+    border: 1px solid grey;
+    margin:5px;
+}
+
+
+main {
+    width:60%;
+    margin:0 auto;
+    display: grid;
+  grid-template-columns: 150px 450px;
+   grid-template-rows: 150px 450px;
+}
+
+header {
+    background-color: orange;
+    font-size: 20px;
+}
+
+nav {
+    background-color: mediumturquoise;
+}
+
+article {
+    background-color: bisque;
+    
+}
+
+aside {
+    background-color: darkslateblue;
+    
+    
+   
+
+}
+
+section {
+    background-color: blanchedalmond;
+    width:200px;
+ margin: auto;
+  width: 80%;
+  padding:5px;
+ 
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+nav li {
+    list-style-type: none;
+    
+}
+
+nav ul {
+    position: relative;
+    right: 38px;
+    
+    
+}
+
+footer {
+    background-color: lightpink;
+    font-size: 20px;
+}
+
+fieldset {
+    margin:5px;
+    border-radius:10px;
+}

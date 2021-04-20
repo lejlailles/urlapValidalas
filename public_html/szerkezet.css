@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+
+
+
+
+main {
+
+    display:grid;
+
+    grid-template-areas:
+        "h h h h "
+        "n a a k "
+        "f f f f ";
+    
+
+}
+
+
+
+header {
+    grid-area:h;
+
+
+}
+
+
+
+article {
+    grid-area:a;
+
+}
+
+nav {
+    grid-area: n;
+}
+
+section {
+    grid-area: s;
+}
+
+aside {
+    grid-area: k;
+}
+
+footer {
+    grid-area: f;
+}
